@@ -1,4 +1,8 @@
 #+OPTIONS: toc:t num:t
 
 * 安装Freebsd
-  当前官网版本是13.1版
+  官网地址：[[www.freebsd.org]]
+  当前的release版是13.1：
+  #+BEGIN_EXPORT html
+  <img src="https://emacs-china.org/uploads/default/optimized/2X/0/047b1224b5fc1326e1946110f90a7e53d4bb626c_2_571x500.png" />
+  #+END_EXPORT
