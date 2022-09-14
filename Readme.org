@@ -1,4 +1,4 @@
 #+OPTIONS: toc:t num:t
 
 * 安装Freebsd
-  13.1版
+  当前官网版本是13.1版
