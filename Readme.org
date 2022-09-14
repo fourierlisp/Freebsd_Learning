@@ -1,7 +1,8 @@
-#+title: Freebsd历程
+#+title: Freebsd点滴积累
 #+OPTIONS: toc:t num:t
 
 * 安装Freebsd
   官网地址：[[https://www.freebsd.org]]
   当前的release版是13.1：
+  #+html: <img src="file:./images/13.1_freebsd.jpg" />
   file:./images/13.1_freebsd.jpg
