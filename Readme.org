@@ -3,4 +3,4 @@
 * 安装Freebsd
   官网地址：[[https://www.freebsd.org]]
   当前的release版是13.1：
-  file:/images/13.1_freebsd.jpg
+  file:./images/13.1_freebsd.jpg
