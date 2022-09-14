@@ -7,4 +7,6 @@
   #+html: <img src="./images/13.1_freebsd.jpg" />
   #+html: <img src="./images/consult-badge.svg" />
   #+html: <img src="./images/test.png />
+  #+html: <img src="https://emacs-china.org/uploads/default/optimized/2X/0/047b1224b5fc1326e1946110f90a7e53d4bb626c_2_571x500.png" />
+
   file:./images/13.1_freebsd.jpg
