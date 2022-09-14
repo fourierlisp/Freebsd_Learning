@@ -1,3 +1,4 @@
-#+OPTIONS toc:t num:t
+#+OPTIONS: toc:t num:t
+
 * 安装Freebsd
   13.1版
