@@ -27,8 +27,27 @@
   #+END_SRC
   查得，该笔记本物理内存为:2048MB。
 
-  令人惊叹，估计也就是freebsd这样的服务器软件能跑起来。这也是学习freebsd的一个重要理由！
-  
+  令人惊叹，估计也就是freebsd这样的服务器操作系统能跑起来。这也是学习freebsd的一个重要理由！
+
+* 初始设置
+** 科学上网
+   先解决科学上网的问题，否则，相关的资源访问会令人痛不欲生。
+
+   科学上网，也是开发工作必备之技能。
+
+   这里需要掌握软路由的相关技能，具体安装及设置，另起文档详述。
+** 安装Emacs
+   默认的文字编辑工具是vi，这个比较反人类，所以，第一时间需要安装编辑文档的神器：emacs
+
+   使用pkg安装emacs:
+   #+BEGIN_SRC
+pkg update
+pkg upgrade
+pkg search emacs-nox
+pkg install emacs-nox
+   #+END_SRC
+
+   
 
 
   
