@@ -41,14 +41,23 @@
 
    使用pkg安装emacs:
    #+BEGIN_SRC 
-pkg update
-pkg upgrade
-pkg search emacs-nox
+pkg upgrade #将已安装的软件包升级到最新版本
+pkg update  #更新pkg源目录
+pkg search emacs-nox #查找源目录中emacs-nox的相关信息
 pkg install emacs-nox #emacs-nox表示无图形界面的版本
    #+END_SRC
 
-   emacs是编辑界的神器，建议掌握。
+   emacs也是写代码的神器，建议掌握。
 
+   查看下emacs的安装情况
+   #+BEGIN_SRC shell
+     which emacs
+   #+END_SRC
+   返回：
+   #+BEGIN_EXAMPLE
+   /usr/local/bin/emacs
+   #+END_EXAMPLE
+   
    
 
 
