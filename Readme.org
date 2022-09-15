@@ -40,12 +40,14 @@
    默认的文字编辑工具是vi，这个比较反人类，所以，第一时间需要安装编辑文档的神器：emacs
 
    使用pkg安装emacs:
-   #+BEGIN_SRC
+   #+BEGIN_SRC 
 pkg update
 pkg upgrade
 pkg search emacs-nox
-pkg install emacs-nox
+pkg install emacs-nox #emacs-nox表示无图形界面的版本
    #+END_SRC
+
+   emacs是编辑界的神器，建议掌握。
 
    
 
