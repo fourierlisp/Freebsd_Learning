@@ -22,9 +22,9 @@
   15年前的笔记本，仍可以顺利安装并运行最新版的freebsd 13.1，欣喜。
 
   让我们看看笔记本的物理内存：
-  #+BEGIN_SRC
+  #+BEGIN_EXAMPLE
   cat /var/run/dmesg.boot | grep memory
-  #+END_SRC
+  #+END_EXAMPLE
   查得，该笔记本物理内存为:2048MB。
 
   令人惊叹，估计也就是freebsd这样的服务器操作系统能跑起来。这也是学习freebsd的一个重要理由！
@@ -40,12 +40,12 @@
    默认的文字编辑工具是vi，这个比较反人类，所以，第一时间需要安装编辑文档的神器：emacs
 
    使用pkg安装emacs:
-   #+BEGIN_SRC 
-pkg upgrade #将已安装的软件包升级到最新版本
-pkg update  #更新pkg源目录
-pkg search emacs-nox #查找源目录中emacs-nox的相关信息
-pkg install emacs-nox #emacs-nox表示无图形界面的版本
-   #+END_SRC
+   #+begin_example 
+     pkg upgrade #将已安装的软件包升级到最新版本
+     pkg update  #更新pkg源目录
+     pkg search emacs-nox #查找源目录中emacs-nox的相关信息
+     pkg install emacs-nox #emacs-nox表示无图形界面的版本
+   #+end_example
 
    emacs也是写代码的神器，建议掌握。
 
@@ -58,7 +58,18 @@ pkg install emacs-nox #emacs-nox表示无图形界面的版本
    /usr/local/bin/emacs
    #+END_EXAMPLE
    
-   
-
-
-  
+** ports系统的安装
+   由于默认是最小安装，没有安装ports系统
+   #+begin_example
+     cd /usr/ports
+     ls
+     该目录应是空的，表明ports系统尚未安装
+   #+end_example
+   首次操作，需要执行以下操作
+   #+begin_example
+     portsnap fetch extract #从源服务器中抓取并解压到/usr/ports目录中
+   #+end_example
+   以后更新ports，则执行以下操作
+   #+begin_example
+     portsnap fetch update #抓取并更新
+   #+end_example
