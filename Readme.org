@@ -7,9 +7,8 @@
   # #+html: <img src="/images/13.1_freebsd.jpg" />
   [[https://www.sina.com.cn][file:images/13.1_freebsd.jpg"]]
 * test for png
-  #+html: <img src="/images/test.png />
+  #+html: <img src="/images/test.png" />
 * test for svg  
-
- [[https://melpa.org/#/projectile][ [[https://melpa.org/#/projectile][file:https://melpa.org/packages/projectile-badge.svg]]]]
+  [[https://melpa.org/#/projectile][file:https://melpa.org/packages/projectile-badge.svg]]
   
 
