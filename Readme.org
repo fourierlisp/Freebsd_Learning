@@ -4,11 +4,10 @@
 * 安装Freebsd
   官网地址：[[https://www.freebsd.org]]
   当前的release版是13.1：
-  # #+html: <img src="/images/13.1_freebsd.jpg" />
   [[https://www.freebsd.org/where/][file:images/13.1_freebsd.jpg]]
-* test for png
-  #+html: <img src="/images/test.png" />
-* test for svg  
-  [[file:images/consult-badge.svg]]
+  如上图所示，下载memstick版，然后写入u盘(可用baleanEtcher工具)，生成u盘启动盘。
+  翻出一台废旧的笔记本，型号：ThinkPad SL410K, 2007年购入，15个年头了，看看能否顺利装上freebsd。
+  
+
   
 
