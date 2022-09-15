@@ -73,3 +73,5 @@
    #+begin_example
      portsnap fetch update #抓取并更新
    #+end_example
+   出于学习的目的，以后有些小软件，可以用ports系统编译安装；对于大软件，比如emacs-nox等，还是用pkg安装二进制文件，省事儿！
+   
