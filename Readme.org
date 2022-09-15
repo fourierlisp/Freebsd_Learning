@@ -6,10 +6,8 @@
   - 当前的release版是13.1：
   [[https://www.freebsd.org/where/][file:images/13.1_freebsd.jpg]]
   - 如上图所示，下载memstick版，然后写入u盘(可用baleanEtcher工具)，生成u盘启动盘。
-    jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjkjkk
-    kjkjkljkljl
-    11222222222222
   - 翻出一台废旧的笔记本，型号：ThinkPad SL410K, 2007年购入，15个年头了，看看能否顺利装上freebsd。
+  - u盘顺利启动，启动菜单出现
   
 
   
